@@ -39,8 +39,9 @@ public class PlayerController : MonoBehaviour
         _currentBoost = context.ReadValue<float>();
     }
 
-    public void Respawn()
+    public void CollidedWithObstacle()
     {
+        // Respawn
         _body.position = respawnPosition.position;
     }
 }
