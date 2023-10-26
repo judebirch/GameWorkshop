@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float boostPower = 40f;
     public float torqueSpeed = 25f;
 
+    public Transform respawnPoint;
+
     private float _currentRotation = 0f;
     private float _currentBoost = 0f;
 
@@ -35,5 +37,10 @@ public class PlayerController : MonoBehaviour
     public void OnBoost(InputAction.CallbackContext context)
     {
         _currentBoost = context.ReadValue<float>();
+    }
+
+    public void OnPlayerHitObstacle()
+    {
+        _body.position = respawnPoint.position;
     }
 }

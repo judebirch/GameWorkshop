@@ -17,7 +17,7 @@
                 {
                     "name": "Boost",
                     "type": "Value",
-                    "id": "a4ddaec6-8e91-4bb3-b493-eff25ae8e1f8",
+                    "id": "9f3c265e-e3bb-48ac-8a3c-cf6de7948cf7",
                     "expectedControlType": "Analog",
                     "processors": "",
                     "interactions": "",
@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "",
-                    "id": "2a496d5b-13df-4d38-804d-aee72852ddb4",
+                    "id": "b7f06638-37ff-4439-8936-6c94fdeab293",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
