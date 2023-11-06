@@ -42,6 +42,12 @@ public class PlayerController : MonoBehaviour
     public void CollidedWithObstacle()
     {
         // Respawn
+        _body.velocity = Vector2.zero;
         _body.position = respawnPosition.position;
+    }
+
+    public void CollidedWithCheckpoint(Checkpoint checkpoint)
+    {
+        respawnPosition.position = checkpoint.transform.position;
     }
 }
