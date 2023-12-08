@@ -23,9 +23,12 @@ public class PlayerController : MonoBehaviour
     public int Coins;
     public TMP_Text scoreText;
 
+    public Transform _respawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
+        data.RespawnPoint = _respawnPoint;
         activeMovementData = movementData;
         _body = GetComponent<Rigidbody2D>();
     }
