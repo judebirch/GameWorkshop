@@ -274,6 +274,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.valknight.markiplier": {
+      "version": "https://www.github.com/valknight/com.valknight.markiplier.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b1ea38ec5cb8749d2e7857f39562c78701b6a432"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

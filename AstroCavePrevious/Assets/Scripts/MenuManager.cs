@@ -20,4 +20,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(levelPath, mode);
     }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
+    }
 }
