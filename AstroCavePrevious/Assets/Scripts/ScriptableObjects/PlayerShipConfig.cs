@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Astro Cave/PlayerShip")]
 public class PlayerShipConfig : ScriptableObject
 {
+    public int Id;
+
     public float BoostPower;
 
     public float RotationSpeed;

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c04c368d56eae24887c52381d955603, type: 3}
   m_Name: Ship1
   m_EditorClassIdentifier: 
-  BoostPower: 50
-  RotationSpeed: 100
+  Id: 1
+  BoostPower: 60
+  RotationSpeed: 2000
   Mass: 1
-  Ship: {fileID: 21300000, guid: 6a3d485ab22b73a4da1b300801ff3b8d, type: 3}
+  Ship: {fileID: 21300000, guid: 29213bf41b354b3468327b4f984eaf5c, type: 3}
   Cost: 20
   Name: Century Hawk

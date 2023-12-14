@@ -25,11 +25,25 @@ public class PlayerController : MonoBehaviour
 
     public Transform _respawnPoint;
 
+    public PlayerShipListConfig PlayerShipListConfig;
+
+
+    public SpriteRenderer SpriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
         data.RespawnPoint = _respawnPoint;
         activeMovementData = movementData;
+
+
+        int currentShipId = PlayerSaveHandler.CurrentSave.EquippedShipId;
+        PlayerShipConfig playerShip = PlayerShipListConfig.Ships[currentShipId];
+        SpriteRenderer.sprite = playerShip.Ship;
+        activeMovementData.boostPower = playerShip.BoostPower;
+        activeMovementData.torqueSpeed = playerShip.RotationSpeed;
+
+        
         _body = GetComponent<Rigidbody2D>();
     }
 

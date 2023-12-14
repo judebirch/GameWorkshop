@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c04c368d56eae24887c52381d955603, type: 3}
   m_Name: Ship0
   m_EditorClassIdentifier: 
-  BoostPower: 50
-  RotationSpeed: 50
+  Id: 0
+  BoostPower: 40
+  RotationSpeed: 1200
   Mass: 1
   Ship: {fileID: 21300000, guid: 6a3d485ab22b73a4da1b300801ff3b8d, type: 3}
   Cost: 10

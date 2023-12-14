@@ -7977,18 +7977,18 @@ PrefabInstance:
     - target: {fileID: 4904471043501525278, guid: 82ebce3ea54ad0c42b88a32e0651c545, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 782234406}
     - target: {fileID: 4904471043501525278, guid: 82ebce3ea54ad0c42b88a32e0651c545, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadLevel
       objectReference: {fileID: 0}
     - target: {fileID: 4904471043501525278, guid: 82ebce3ea54ad0c42b88a32e0651c545, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelSelectManager, Assembly-CSharp
+      value: ShopManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4904471043501525278, guid: 82ebce3ea54ad0c42b88a32e0651c545, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Assets/Scenes/MainScene.unity
+      value: Assets/Scenes/LevelSelectScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8930339153850597774, guid: 82ebce3ea54ad0c42b88a32e0651c545, type: 3}
       propertyPath: m_Name
@@ -9927,6 +9927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopItemPrefab: {fileID: 3754771129593810316, guid: 7adc044c342d9e644bd1d3f4792bb2ac, type: 3}
   ShopContainer: {fileID: 1734341716}
+  CoinsText: {fileID: 1602334590}
 --- !u!1 &1759175195
 GameObject:
   m_ObjectHideFlags: 0
